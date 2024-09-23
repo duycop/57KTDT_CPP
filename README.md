@@ -19,3 +19,8 @@
   4. Các toán tử trong C++ : toán tử toán học (cộng +, trừ - , nhân *, chia /, chia lấy dư %), toán tử so sánh (>, <, >=, <=, ==, !=), toán tử gộp các điều kiện bool (AND &&, OR ||, NOT !), toán tử làm việc theo cặp bit (AND &, OR |, XOR ^) [toan_tu.cpp](code/toan_tu.cpp)
   5. Bài tập ứng dụng toán tử: Nhập 3 cạnh 1 tam giác, print ra màn hình chu vi và diện tích, xem code [tam_giac.cpp](code/tam_giac.cpp)
   6. Các cấu trúc điều khiển trong C++: xem code [if_else_switch_for_while_do.cpp](code/if_else_switch_for_while_do.cpp)
+
+**Buổi học 5** (23/9): 
+  1. Tiếp tục câu lệnh rẽ nhanh : if ko else, if có else, cần nhớ cú pháp, sơ đồ khối: xem file [if_else.cpp](code/if_else.cpp)
+  2. Lệnh rẽ nhiều nhánh **switch**: cần nhớ cú pháp, sơ đồ khối, sơ đồ bé đứng tè: xem file [switch_case.cpp](code/switch_case.cpp)
+  3. Lệnh **for**: cần nhớ cú pháp **for(khối_khởi_tạo; khối_điều_kiện; khối_đếm){ khối_thân_for; }** : xem file code [for1](code/lenh_for.cpp) và [for2](code/lenh_for2.cpp)
