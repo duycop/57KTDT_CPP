@@ -22,7 +22,7 @@ int main(){
 	}
 	*/	
 	
-	//vd if ko else : neu dk dung thi lam gì do', ko dung ko lam.
+	//vd if ko else : neu dk dung thi lam gÃ¬ do', ko dung ko lam.
 	//nhap 1 so nguyen, neu la so chan thi in ra man hinh : day la so chan
 	int a;
 	cout<<"Hay nhap 1 so nguyen: ";
