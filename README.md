@@ -24,3 +24,10 @@
   1. Tiếp tục câu lệnh rẽ nhanh : if ko else, if có else, cần nhớ cú pháp, sơ đồ khối: xem file [if_else.cpp](code/if_else.cpp)
   2. Lệnh rẽ nhiều nhánh **switch**: cần nhớ cú pháp, sơ đồ khối, sơ đồ bé đứng tè: xem file [switch_case.cpp](code/switch_case.cpp)
   3. Lệnh **for**: cần nhớ cú pháp **for(khối_khởi_tạo; khối_điều_kiện; khối_đếm){ khối_thân_for; }** : xem file code [for1](code/lenh_for.cpp) và [for2](code/lenh_for2.cpp)
+  4. Events trong buổi học: 1 bạn gặp vấn đề về sức khoẻ, đã được hotgirl y tế chăm sóc; 1 bạn làm thêm quá sức được người thân đưa về!
+  5. Các điểm thưởng khi học(thưởng 10 điểm):
+- K235510303245 **Đặng Đức Phúc**: snt là số nguyên dương và ONLY chia hết cho 1 và chính nó
+- K235520201152 **Nguyễn Văn Vang**: Có câu hỏi xây dựng bài
+- K235520207054 **Nguyễn Mạnh Sơn**: Trả lời đúng về toán tử && (AND) và toán tử || (OR)
+   
+
