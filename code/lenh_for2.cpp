@@ -6,7 +6,7 @@ int main(){
 	    <<"cu phap: for([khoi_khoi_tao]; [khoi_dieu_kien]; [khoi_dem]){Khoi_lenh_thuc_hien;}\n"
 	    <<"dau [] boc 1 thanh phan KO BAT BUOC, dau ; ko nam trong [] => 2 dau la BAT BUOC\n";
 	    
-	//vi du2: LIET KE CÁC SO CO 4 CHU SO MA CHIA CHO 8 DU 7 VÀ CHIA 125 THI DU 4.
+	//vi du2: LIET KE CÃC SO CO 4 CHU SO MA CHIA CHO 8 DU 7 VÃ€ CHIA 125 THI DU 4.
 	//BAI TOAN SO THI LOP 9->10 NAM 1995.
 	
 	//THUAT TOAN: SU DUNG VONG LAP FOR DE DUYET QUA TAT CA CAC SO NGUYEN CO 4 CHU SO
