@@ -8,14 +8,14 @@ int main(){
 	    
 	//vi du: liet ke cac so nguyen to trong khoang tu A->B.
 	//thuat toan: 
-	// input : nhap 2 so nguyen A và B
+	// input : nhap 2 so nguyen A vÃ  B
 	// output: in ra man hinh CAC so nguyen la so nguyen to nam trong doan A den B
-	// so nguyen to la so thoa man dk gì? THIS IS MATH
+	// so nguyen to la so thoa man dk gÃ¬? THIS IS MATH
 	
 	//dang duc phuc: 10d trong list diem thanh phan => snt la so ONLY chia het cho 1 va chinh no
 	
 	//=> THUAT TOAN DE KIEM TRA 1 SO NGUYEN N CO PHAI SNT HAY KO?
-	//KIEM TRA TÍNH CHIA HET CUA N CHO CÁC SO NGUYEN i NAM TRONG KHOANG (2..N-1)
+	//KIEM TRA TÃNH CHIA HET CUA N CHO CÃC SO NGUYEN i NAM TRONG KHOANG (2..N-1)
 	//NEU N CHIA HET CHO 1 GIA TRI i NAO DO (2..n-1) => N KO PHAI LA SNT; NGUOC LAI: N LA SNT
 	
 	//SU DUNG 1 VONG LAP FOR: DE KIEM TRA TINH CHIA HET : TOAN TU % LIEN QUAN CHIA LAY DU
@@ -26,7 +26,7 @@ int main(){
 	cin>>a>>b;
 	cout<<"   So nguyen to la: ";
 	bool tontai=false;  //dau bai bo Sung:  neu ko co snt nao trong khoang a..b thi in ra: chang co snt nao
-	for(int n = a; n<=b; n++){		//duyet các so nguyen n trong khoang tu a..b
+	for(int n = a; n<=b; n++){		//duyet cÃ¡c so nguyen n trong khoang tu a..b
 		bool ok=true;				//tam coi n la so nguyen to
 		for(int i=2;i<=n-1;i++)
 			if(n%i == 0){
