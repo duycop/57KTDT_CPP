@@ -29,5 +29,6 @@
 - K235510303245 **Đặng Đức Phúc**: snt là số nguyên dương và ONLY chia hết cho 1 và chính nó
 - K235520201152 **Nguyễn Văn Vang**: Có câu hỏi xây dựng bài
 - K235520207054 **Nguyễn Mạnh Sơn**: Trả lời đúng về toán tử && (AND) và toán tử || (OR)
+  6. Các ví dụ minh hoạ đều kèm đầu bài, phân tích thuật toán, code giải kèm chú thích. Đặc biệt các bạn nghe giảng được phép hỏi đáp và thưởng điểm!
    
 
