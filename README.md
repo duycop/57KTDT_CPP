@@ -39,5 +39,5 @@
   3. Lệnh **do{khối_lệnh;}while(điều_kiện);** lệnh này thực hiện khối lệnh trước, kiểm tra điều kiện sau, nếu điều kiện đúng thì lặp lại khối lệnh, nếu điều kiện sai thì thoát, kể cả là sai ngay từ lần đầu kiểm tra thì khối lệnh đã thực hiện được 1 lần. Xem file [do_while.cpp](code/do_while.cpp)
   4. trong file do_while.cpp thì có dùng toán tử += và ++, 1 bạn sv đã phát hiện ra thầy dạy sót => thưởng nóng 10đ cho bạn gái **K235520207028-Nguyễn Thị Huyền**
   5. Thầy bù đắp thiếu sót bằng cách giảng bổ xung về các toán tử còn thiếu: ~a phủ định bít của a, a >> n (dịch phải n bít), a << n (dịch trái n bít), ++ --,  += -= *= /= %= <<= >>= xem chi tiết file [toan_tu_bo_xung.cpp](code/toan_tu_bo_xung.cpp)
-  6. vd về dùng lệnh lặp: nhập vào 1 số chính phương, nếu đúng thông báo OK, ngược lại thì bắt nhập lại. xem file [vd_lap.cpp](code/vd_lap.cpp)
+  6. vd về dùng lệnh lặp: nhập vào 1 số chính phương, nếu đúng thông báo OK, ngược lại thì bắt nhập lại. xem file [vd_lap.cpp](code/vd_lap.cpp)  THƯỞNG 10D: 	**K235520207023	Nông Duy Hoàng**
   7. Chú ý khi đọc code: xem kỹ đoạn phân tích từ đầu bài => thuật toán => cách làm.
