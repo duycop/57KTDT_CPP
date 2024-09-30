@@ -59,10 +59,10 @@
    - Đầu ra: đếm số ngày từ date1 đến date2
    - **Thuật toán:**
      + step0: khởi tạo biến **đếm** = 0
-     + step1: nếu date1 chưa bằng date2 thì sang bước 2, ngược lại thì sang bước 6
+     + step1: nếu date1 **chưa bằng** date2 thì sang bước 2, ngược lại thì sang bước 6
      + step2: tính số ngày max của tháng m1 (dùng thuật toán đã làm với switch case), riêng tháng 2 đã có y1 rồi!
      + step3: tăng d1 lên 1 đơn vị để sang ngày tiếp theo; đồng thời tăng biến **đếm** lên 1 đơn vị
-     + step4: nếu d1 (là ngày tiếp theo) mà lớn hơn số ngày max của tháng m1 thì đó là ngày 1 của tháng tiếp theo. riêng với tháng 12 thì ngày đó ngày đầu năm mới
-     + step5: Quay về bước 1
-     + step6: Thông báo số ngày từ date1 đến date2 là giá trị trong biến **đếm**
+     + step4: nếu d1 (là ngày tiếp theo) mà lớn hơn số ngày max của tháng m1 thì đó là ngày 1 của tháng tiếp theo (d1=1; m1++; y1 ko đổi). Riêng với tháng 12 thì ngày tiếp theo đó là ngày đầu năm mới (d1=1; m1=1; y1++)
+     + step5: Quay về bước 1. => từ step5 quay về step1: Đây là dấu hiệu cho thấy sẽ phải dùng vòng lặp **while**
+     + step6: (ngoài vòng lặp while) Thông báo số ngày từ date1 đến date2 là giá trị trong biến **đếm** 
    - **full code:** tham khảo file: [huong_duong.cpp](code/huong_duong.cpp)
