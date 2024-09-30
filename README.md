@@ -41,3 +41,28 @@
   5. Thầy bù đắp thiếu sót bằng cách giảng bổ xung về các toán tử còn thiếu: ~a phủ định bít của a, a >> n (dịch phải n bít), a << n (dịch trái n bít), ++ --,  += -= *= /= %= <<= >>= xem chi tiết file [toan_tu_bo_xung.cpp](code/toan_tu_bo_xung.cpp)
   6. vd về dùng lệnh lặp: nhập vào 1 số chính phương, nếu đúng thông báo OK, ngược lại thì bắt nhập lại. xem file [vd_lap.cpp](code/vd_lap.cpp)  THƯỞNG 10D: 	**K235520207023	Nông Duy Hoàng**
   7. Chú ý khi đọc code: xem kỹ đoạn phân tích từ đầu bài => thuật toán => cách làm.
+
+**Buổi học 7** (30/9)
+  1. Kiểm tra 60 phút: Vẽ sơ đồ khối các lệnh điều khiển if..else, switch..case, for, while, do..while; Bình luật về cách hoạt động của các sơ đồ đó.
+  2. Điểm danh => **Cấm thi** các sv sau:
+  - K205520201014	Nguyễn Thế Bảo
+  - K235520207041	Dương Trung Nghĩa
+  - K235520207077	Nguyễn Đức Nghĩa
+  - K235520207058	Nguyễn Ngọc Thụy
+  - K205510301074	Dương Đình Tuyến
+  3. Còn 10 phút bonus thêm một ví dụ về sử dụng vòng lặp
+   - Sử dụng vòng lặp **while**
+   - Bài toán **tính số ngày Hưởng dương**
+   - Bài toán này áp dụng đoạn code **switch case** về tính số ngày trong 1 tháng
+   - Copy đoạn code cũ => chuyển đổi 1 xíu để áp dụng cho bài này.
+   - Đầu vào: date1 (d1,m1,y1) và date2(d2,m2,y2)
+   - Đầu ra: đếm số ngày từ date1 đến date2
+   - **Thuật toán:**
+     + step0: khởi tạo biến **đếm** = 0
+     + step1: nếu date1 chưa bằng date2 thì sang bước 2, ngược lại thì sang bước 6
+     + step2: tính số ngày max của tháng m1 (dùng thuật toán đã làm với switch case), riêng tháng 2 đã có y1 rồi!
+     + step3: tăng d1 lên 1 đơn vị để sang ngày tiếp theo; đồng thời tăng biến **đếm** lên 1 đơn vị
+     + step4: nếu d1 (là ngày tiếp theo) mà lớn hơn số ngày max của tháng m1 thì đó là ngày 1 của tháng tiếp theo. riêng với tháng 12 thì ngày đó ngày đầu năm mới
+     + step5: Quay về bước 1
+     + step6: Thông báo số ngày từ date1 đến date2 là giá trị trong biến **đếm**
+   - **full code:** tham khảo file: [huong_duong.cpp](code/huong_duong.cpp)
