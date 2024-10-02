@@ -66,3 +66,12 @@
      + step5: Quay về bước 1. => từ step5 quay về step1: Đây là dấu hiệu cho thấy sẽ phải dùng vòng lặp **while**
      + step6: (ngoài vòng lặp while) Thông báo số ngày từ date1 đến date2 là giá trị trong biến **đếm** 
    - **full code:** tham khảo file: [huong_duong.cpp](code/huong_duong.cpp)
+
+**Buổi học 8** (2/10)
+   - Tính **tổng** các số nguyên tố có 3 chữ số [tong_snt.cpp](code/tong_snt.cpp)
+   - **Liệt kê** các số nguyên tố có 3 chữ số [tong_snt.cpp](code/liet_ke_snt.cpp)
+   - **Đếm số lượng** các số nguyên tố có 3 chữ số [tong_snt.cpp](code/dem_so_luong_snt.cpp)
+   - Tính **trung bình cộng** các số chính phương trong khoảng từ A->B [tong_snt.cpp](code/tbc_scp.cpp)
+   - Liệt kê/Đếm/Tính tổng/Tính TBC: Các số HOÀN HẢO từ 2..10000 [hoan_hao.cpp](code/hoan_hao.cpp)
+   - Dữ liệu kiểu mảng: Cách khai báo mảng, các nhập mảng, cách truy xuất mảng. vd với bài toán đơn giản: Nhập mảng có N phần tử số nguyên, liệt kê các số chẵn trong mảng => xem file [mang.cpp](code/mang.cpp)
+   - Ví dụ mà hầu hết các bài thi đều na ná như này: Nhập mảng có N phần tử số nguyên, Đế/liệt kê/tổng/TBC các số HOÀN HẢO trong mảng => xem file [mang2.cpp](code/mang2.cpp)
