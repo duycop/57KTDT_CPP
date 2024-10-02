@@ -1,6 +1,6 @@
-#include<iostream>	
-using namespace std;
-int main(){
+#include<iostream>					//Khai báo thư viện i/o stream: dùng để nhập & xuất
+using namespace std;					//khai báo KHÔNG GIAN TÊN std, vì cin,cout thuộc std
+int main(){						//hàm này được tự động gọi.
 	cout<<"PHAN MEM TINH SO NGAY HUONG DUONG\n";	//thông tin về chương trình này, bài toán này.
 	cout<<"Nhap DATE1 (d1,m1,y1): ";		//thông báo trước khi nhập date1
 	int d1,m1,y1,d2,m2,y2;				//khai báo trước khi nhập
@@ -11,14 +11,14 @@ int main(){
 	while(!(d1==d2 && m1==m2 && y1==y2)){		//điều kiện lặp: Nếu date1 KHÔNG BẰNG date2	
 		int max_ngay_trong_thang;		//biến này sẽ tính số ngày MAX của tháng m1
 		switch(m1){				//áp dụng thuật toán tính số ngày của 1 tháng
-			case 1:
-			case 3:
-			case 5:
+			case 1:					//lấy t so sánh với 1 xem có bằng nhau?
+			case 3:					//ngược lại thì mới ss t với 3
+			case 5:					//....
 			case 7:
 			case 8:
 			case 10:
 			case 12: max_ngay_trong_thang=31;	//những tháng này có 31 ngày
-					 break;
+					 break;			//thoát khỏi lệnh switch
 			case 4:
 			case 6:
 			case 9:
