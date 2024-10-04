@@ -1,4 +1,4 @@
-# 57KTDT_CPP
+# 59KTDT_CPP
 
 **Buổi học 1** (9/9): Giới thiệu môn học, thống kê ABCDEF, cách học, cách thi, cách khai thác quyền lợi
 
